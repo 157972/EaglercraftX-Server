@@ -1,0 +1,61 @@
+Warps:
+  spawn:
+    name: spawn
+    owner: 522b1a65-cdd5-348f-bfe3-1448aaffcf22
+    ownername: Adam89893333
+    count: true
+    loc:
+      x: 0.0
+      y: 85.0
+      z: 0.0
+      pitch: 2.25
+      yaw: 0.15000013
+      world: new
+  mine:
+    name: mine
+    owner: f120e45a-eb13-3e72-ada9-c45d4ab4f99c
+    ownername: offical_dream
+    count: true
+    loc:
+      x: -481.5550964762782
+      y: 14.0
+      z: 220.40423075795653
+      pitch: 8.400008
+      yaw: -16.6503
+      world: new
+  tep:
+    name: tep
+    owner: 522b1a65-cdd5-348f-bfe3-1448aaffcf22
+    ownername: Adam89893333
+    count: true
+    loc:
+      x: 5.388693802248989
+      y: 72.0
+      z: 41.10210936046737
+      pitch: -0.90000814
+      yaw: -87.61646
+      world: new
+  cave:
+    name: cave
+    owner: 522b1a65-cdd5-348f-bfe3-1448aaffcf22
+    ownername: Adam89893333
+    count: true
+    loc:
+      x: -87.64937941608908
+      y: 21.0
+      z: 13.598983955149714
+      pitch: 3.9419987
+      yaw: -4.408321
+      world: new
+  home:
+    name: home
+    owner: 4136aea5-ee37-34c9-934d-698807690984
+    ownername: cris00
+    count: true
+    loc:
+      x: -43.20660005389515
+      y: 86.0
+      z: 140.24055154155457
+      pitch: 8.550009
+      yaw: -270.8999
+      world: new

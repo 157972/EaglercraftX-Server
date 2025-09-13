@@ -1,0 +1,2137 @@
+[15:40:11] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[15:40:11] [Server thread/INFO]: Loading properties
+[15:40:11] [Server thread/INFO]: Default game type: SURVIVAL
+[15:40:11] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[15:40:12] [Server thread/INFO]: Debug logging is disabled
+[15:40:12] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[15:40:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[15:40:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:40:12] [Server thread/INFO]: Data value allowed items: 
+[15:40:12] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[15:40:12] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[15:40:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[15:40:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[15:40:12] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[15:40:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[15:40:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[15:40:12] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[15:40:12] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[15:40:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[15:40:12] [Server thread/INFO]: Generating keypair
+[15:40:12] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[15:40:12] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[15:40:12] [Server thread/INFO]: Using default channel type
+[15:40:12] [Server thread/ERROR]: Could not load 'plugins/EaglerPluginInstaller.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[15:40:12] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:40:13] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.07
+[15:40:13] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[15:40:13] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.11
+[15:40:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:40:14] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.1
+[15:40:14] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[15:40:14] [Server thread/INFO]: [Timber] Loading Timber v1.0.9
+[15:40:14] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.0.7
+[15:40:14] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.32.4-T20250718161642
+[15:40:14] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[15:40:14] [Server thread/INFO]: [Slimefun] Loading Slimefun v1.6
+[15:40:14] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[15:40:14] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[15:40:14] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[15:40:14] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[15:40:14] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[15:40:14] [Server thread/INFO]: [GWarp] Loading GWarp v[2.13.0.2]
+[15:40:14] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[15:40:14] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[15:40:14] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.27.1
+[15:40:14] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.2
+[15:40:14] [Server thread/INFO]: [Admin-GUI] Loading Admin-GUI v1.4.7
+[15:40:14] [Server thread/INFO]: [SignShop] Loading SignShop v2.6.2
+[15:40:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
+[15:40:14] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[15:40:14] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.5.11[m
+
+[15:40:14] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[15:40:14] [Server thread/INFO]: [m
+
+[15:40:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:40:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:40:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:40:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3160ms)
+[15:40:17] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[15:40:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:40:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:40:17] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[15:40:17] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:40:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:40:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:40:17] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:40:17] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:40:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:40:17] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:40:17] [Server thread/INFO]: Preparing level "world"
+[15:40:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:40:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:17] [Server thread/INFO]: Mob Spawn Range: 4
+[15:40:17] [Server thread/INFO]: Anti X-Ray: true
+[15:40:17] [Server thread/INFO]: 	Engine Mode: 1
+[15:40:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:40:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:40:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:40:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:40:17] [Server thread/INFO]: Random Lighting Updates: false
+[15:40:17] [Server thread/INFO]: Structure Info Saving: true
+[15:40:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:40:17] [Server thread/INFO]: Max Entity Collisions: 8
+[15:40:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:40:17] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:40:17] [Server thread/INFO]: Clear tick list: false
+[15:40:17] [Server thread/INFO]: View Distance: 4
+[15:40:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:40:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:40:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:40:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:40:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:40:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:40:17] [Server thread/INFO]: Water over lava flow speed: 5
+[15:40:17] [Server thread/INFO]: Fix TNT cannons: false
+[15:40:17] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:40:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:40:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:40:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:40:17] [Server thread/INFO]: World async lighting: false
+[15:40:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:40:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Mob Spawn Range: 4
+[15:40:18] [Server thread/INFO]: Anti X-Ray: true
+[15:40:18] [Server thread/INFO]: 	Engine Mode: 1
+[15:40:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:40:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:40:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:40:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:40:18] [Server thread/INFO]: Random Lighting Updates: false
+[15:40:18] [Server thread/INFO]: Structure Info Saving: true
+[15:40:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:40:18] [Server thread/INFO]: Max Entity Collisions: 8
+[15:40:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:40:18] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:40:18] [Server thread/INFO]: Clear tick list: false
+[15:40:18] [Server thread/INFO]: View Distance: 4
+[15:40:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:40:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:40:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:40:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:40:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:40:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:40:18] [Server thread/INFO]: Water over lava flow speed: 5
+[15:40:18] [Server thread/INFO]: Fix TNT cannons: false
+[15:40:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:40:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:40:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:40:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:40:18] [Server thread/INFO]: World async lighting: false
+[15:40:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:40:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:18] [Server thread/INFO]: Mob Spawn Range: 4
+[15:40:18] [Server thread/INFO]: Anti X-Ray: true
+[15:40:18] [Server thread/INFO]: 	Engine Mode: 1
+[15:40:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:40:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:40:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:40:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:40:18] [Server thread/INFO]: Random Lighting Updates: false
+[15:40:18] [Server thread/INFO]: Structure Info Saving: true
+[15:40:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:40:18] [Server thread/INFO]: Max Entity Collisions: 8
+[15:40:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:40:18] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:40:18] [Server thread/INFO]: Clear tick list: false
+[15:40:18] [Server thread/INFO]: View Distance: 4
+[15:40:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:40:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:40:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:40:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:40:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:40:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:40:18] [Server thread/INFO]: Water over lava flow speed: 5
+[15:40:18] [Server thread/INFO]: Fix TNT cannons: false
+[15:40:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:40:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:40:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:40:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:40:18] [Server thread/INFO]: World async lighting: false
+[15:40:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: 5146159088207717555)
+[15:40:19] [Server thread/INFO]: Preparing spawn area: 19%
+[15:40:20] [Server thread/INFO]: Preparing spawn area: 72%
+[15:40:20] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3413096383872671809)
+[15:40:21] [Server thread/INFO]: Preparing spawn area: 55%
+[15:40:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3413096383872671809)
+[15:40:21] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.07
+[15:40:22] [Server thread/INFO]: CoreProtect version 2.07 is enabled!
+
+[15:40:22] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+
+[15:40:22] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[15:40:22] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[15:40:22] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[15:40:22] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.1
+[15:40:22] [Server thread/INFO]: Check 1 passed
+
+[15:40:22] [Server thread/INFO]: Check 3 passed
+
+[15:40:22] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:22] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:22] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.1 is now Enabled! :D[m
+
+[15:40:22] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[15:40:22] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[15:40:22] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[15:40:22] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[15:40:22] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:22] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[15:40:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:40:22] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[15:40:22] [Server thread/INFO]: [Timber] Enabling Timber v1.0.9
+[15:40:22] [Server thread/INFO]: Timber Log Materials: [LOG_2, LOG]
+[15:40:22] [Server thread/INFO]: Timber Axe Materials: [STONE_AXE, GOLD_AXE, IRON_AXE, DIAMOND_AXE, WOOD_AXE]
+[15:40:22] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.0.7
+[15:40:22] [Server thread/INFO]: AdminFun v2.0.7 is now enabled.
+[15:40:22] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.32.4-T20250718161642
+[15:40:22] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[15:40:22] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[15:40:22] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[15:40:22] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
+
+[15:40:22] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+[15:40:22] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+
+[15:40:23] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[15:40:23] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[15:40:23] [Server thread/INFO]: [Minepacks] Finished loading item translations for 634 items.
+[15:40:23] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[15:40:23] [Server thread/INFO]: [Slimefun] Enabling Slimefun v1.6
+[15:40:23] [Server thread/INFO]: [Slimefun] Config loaded
+
+[15:40:23] [Server thread/INFO]: [Slimefun] Slimefun v1.6 enabled!
+
+[15:40:23] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[15:40:23] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[15:40:23] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[15:40:23] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[15:40:23] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[15:40:23] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[15:40:23] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[15:40:23] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:40:23] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:40:23] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:40:23] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:40:23] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[15:40:23] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[15:40:23] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.1
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.1 is now Disabled! D:[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.1
+[15:40:23] [Server thread/INFO]: Check 1 passed
+
+[15:40:23] [Server thread/INFO]: Check 3 passed
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.1 is now Enabled! :D[m
+
+[15:40:23] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[15:40:23] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[15:40:23] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[15:40:23] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+
+[15:40:23] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: --------------------------------------------[m
+
+[15:40:23] [Server thread/INFO]: [GWarp] Enabling GWarp v[2.13.0.2]
+[15:40:23] [Server thread/INFO]: [0;37;22m[[0;33;22mGWarp[0;37;22m][0;32;1m The Plugin was successfully enabled.[m
+
+[15:40:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[15:40:23] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[15:40:23] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[15:40:24] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5146159088207717555
+[15:40:24] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 3413096383872671809
+[15:40:24] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 3413096383872671809
+[15:40:24] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'new' - Env: NORMAL - Type: NORMAL & seed: 6961511716683689128
+[15:40:24] [Server thread/INFO]: -------- World Settings For [new] --------
+[15:40:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:24] [Server thread/INFO]: Mob Spawn Range: 4
+[15:40:24] [Server thread/INFO]: Anti X-Ray: true
+[15:40:24] [Server thread/INFO]: 	Engine Mode: 1
+[15:40:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:40:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:40:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:40:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:40:24] [Server thread/INFO]: Random Lighting Updates: false
+[15:40:24] [Server thread/INFO]: Structure Info Saving: true
+[15:40:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:40:24] [Server thread/INFO]: Max Entity Collisions: 8
+[15:40:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:40:24] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:40:24] [Server thread/INFO]: Clear tick list: false
+[15:40:24] [Server thread/INFO]: View Distance: 4
+[15:40:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:24] [Server thread/INFO]: -------- World Settings For [new] --------
+[15:40:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:40:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:40:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:40:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:40:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:40:24] [Server thread/INFO]: Water over lava flow speed: 5
+[15:40:24] [Server thread/INFO]: Fix TNT cannons: false
+[15:40:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:40:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:40:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:40:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:40:24] [Server thread/INFO]: World async lighting: false
+[15:40:24] [Server thread/INFO]: Preparing start region for level 3 (Seed: 6961511716683689128)
+[15:40:25] [Server thread/INFO]: Preparing spawn area for new, 60%
+
+[15:40:25] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[15:40:25] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:40:25] [Server thread/INFO]: [WorldGuard] (new) TNT ignition is PERMITTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (new) Lighters are PERMITTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (new) Lava fire is blocked.
+[15:40:25] [Server thread/INFO]: [WorldGuard] (new) Fire spread is UNRESTRICTED.
+[15:40:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'new'
+[15:40:25] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:40:25] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.27.1
+[15:40:25] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.27.1[m
+
+[15:40:25] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
+
+[15:40:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[15:40:26] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[15:40:26] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[15:40:26] [Server thread/INFO]: No kits found to migrate.
+[15:40:26] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[15:40:26] [Server thread/INFO]: Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[15:40:26] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[15:40:26] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[15:40:26] [Server thread/INFO]: Selected Legacy 1.8 Potion Meta Provider as the provider for PotionMetaProvider
+[15:40:26] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[15:40:26] [Server thread/INFO]: Selected Legacy Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[15:40:26] [Server thread/INFO]: Selected Legacy Player Locale Provider as the provider for PlayerLocaleProvider
+[15:40:26] [Server thread/INFO]: Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[15:40:26] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
+[15:40:26] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[15:40:26] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[15:40:26] [Server thread/INFO]: Selected 1.8 Spawn Egg Provider as the provider for SpawnEggProvider
+[15:40:26] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[15:40:26] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[15:40:26] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[15:40:26] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[15:40:26] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
+[15:40:26] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[15:40:26] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
+[15:40:26] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[15:40:26] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[15:40:26] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[15:40:26] [Server thread/INFO]: Loaded 853 items from items.csv.
+[15:40:26] [Server thread/INFO]: Using locale en
+[15:40:26] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[15:40:26] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[15:40:26] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[15:40:26] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[15:40:27] [Server thread/INFO]: [Admin-GUI] Enabling Admin-GUI v1.4.7
+[15:40:27] [Server thread/INFO]: [SignShop] Enabling SignShop v2.6.2
+[15:40:27] [Server thread/INFO]: [SignShop] Could not start Metrics, see http://mcstats.org for more information.
+[15:40:27] [Server thread/INFO]: [SignShop] v2.6.2 Enabled
+[15:40:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:40:27] [Server thread/INFO]: Done (10.044s)! For help, type "help" or "?"
+[15:40:27] [Server thread/INFO]: Timings Reset
+[15:40:27] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.5.6-b49)!
+[15:40:27] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[15:40:27] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[15:40:27] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m[]=====[[0;32;1mEnabling [0;31;1mAdminGUI[0;30;1m]=====[][m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m| [0;31;1mInformation:[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1mName: [0;36;1mAdminGUI[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1mDeveloper: [0;36;1mBlack1_TV[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1mVersion: [0;36;1m1.4.7 (FREE) ([0;33;22mupdate available[0;36;1m)[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1mPremium:[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1m- [0;36;1mhttps://polymart.org/resource/admin-gui-premium.49[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1m- [0;36;1mhttps://songoda.com/marketplace/product/admin-gui-premium-plugin.143[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m| [0;31;1mSupport:[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1mDiscord: [0;36;1mCrazy Rabbit#0001[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1mMail: [0;36;1mziga.zajc007@gmail.com[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|   [0;34;1mDiscord: [0;36;1mhttps://discord.gg/hUNymXX[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m|[m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [0;30;1m[]=====================================[][m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: [m
+
+[15:40:27] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[15:40:27] [Server thread/ERROR]: [WorldEdit] Got request to set EditSessionFactory of type net.coreprotect.worldedit.CoreProtectEditSessionFactory from net.coreprotect.worldedit but EditSessionFactories have been removed in favor of extending EditSession's extents.
+
+This may mean that any block logger / intercepters addons/plugins/mods that you have installed will not intercept WorldEdit's changes! Please notify the maintainer of the other addon about this.
+[15:41:38] [Thread-11/INFO]: UUID of player kingrobby102 is 0a5259b1-2027-3ec5-8cdd-f69064826c82
+[15:41:38] [Server thread/INFO]: kingrobby102[/[0:0:0:0:0:0:0:1]:39480] logged in with entity id 664 at ([new]-399.7300293341798, 195.0, -412.324407476426)
+[15:41:38] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 59.947308ms. Summary: Getting group for kingrobby102
+[15:42:15] [Server thread/INFO]: kingrobby102 fell from a high place
+[15:43:03] [Server thread/INFO]: kingrobby102 issued server command: /
+[15:43:07] [Server thread/INFO]: kingrobby102 issued server command: /back
+[15:43:24] [Thread-12/INFO]: UUID of player Hamzah898933_ is a09d9599-c777-3d52-b647-797cdc1dc256
+[15:43:25] [Server thread/INFO]: Hamzah898933_[/[0:0:0:0:0:0:0:1]:51242] logged in with entity id 4530 at ([new]-399.8161889443616, 195.0, -412.21363585474586)
+[15:43:45] [Server thread/INFO]: Hamzah898933_ issued server command: /changems
+[15:44:11] [Server thread/INFO]: Hamzah898933_ issued server command: /password
+[15:44:12] [Server thread/INFO]: Hamzah898933_ issued server command: /
+[15:44:16] [Server thread/INFO]: Hamzah898933_ issued server command: /gmc
+[15:44:22] [Server thread/INFO]: Hamzah898933_ issued server command: /tp kingrobby102 Hamzah898933_
+[15:44:26] [Server thread/INFO]: Hamzah898933_ issued server command: /adm
+[15:44:31] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:44:37] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> can have bones[m
+
+[15:44:48] [Server thread/INFO]: kingrobby102 fell from a high place
+[15:44:55] [Server thread/INFO]: kingrobby102 issued server command: /back
+[15:45:09] [Thread-13/INFO]: UUID of player Adam89893333 is 522b1a65-cdd5-348f-bfe3-1448aaffcf22
+[15:45:09] [Server thread/INFO]: Adam89893333[/[0:0:0:0:0:0:0:1]:33500] logged in with entity id 8130 at ([new]23.366037997922263, 72.0, 45.80689498318139)
+[15:45:09] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 27.107636ms. Summary: Getting group for Adam89893333
+[15:45:17] [Server thread/INFO]: Adam89893333 issued server command: /l 956okh6n
+[15:45:41] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityRabbit.damageEntity(EntityRabbit.java:230) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 22 more
+[15:45:58] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityRabbit.damageEntity(EntityRabbit.java:230) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 22 more
+[15:47:09] [Server thread/INFO]: Hamzah898933_ issued server command: /tp kingrobby102 Hamzah898933_
+[15:47:32] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:47:36] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> what do you want[m
+
+[15:47:42] [Server thread/INFO]: Hamzah898933_ issued server command: /tp Adam89893333 Hamzah898933_
+[15:47:49] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> butiful[m
+
+[15:47:55] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mAdam89893333[m> wth[m
+
+[15:47:55] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> what'[m
+
+[15:48:06] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> now the fun[m
+
+[15:48:09] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:48:10] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mAdam89893333[m> what the hell is this?[m
+
+[15:48:12] [Server thread/INFO]: Adam89893333 issued server command: /mv list
+[15:48:14] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> bye[m
+
+[15:48:19] [Server thread/INFO]: kingrobby102 lost connection: Disconnected
+[15:48:19] [Server thread/INFO]: kingrobby102 is NOW! fucking offline!!
+[15:48:20] [Server thread/INFO]: Adam89893333 issued server command: /
+[15:48:22] [Thread-14/INFO]: UUID of player kingrobby102 is 0a5259b1-2027-3ec5-8cdd-f69064826c82
+[15:48:22] [Server thread/INFO]: kingrobby102[/[0:0:0:0:0:0:0:1]:57526] logged in with entity id 13108 at ([new]-394.65591330514064, 196.0, -409.69999998807907)
+[15:48:43] [Server thread/INFO]: Hamzah898933_ issued server command: /gms kingrobby102
+[15:48:56] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:48:59] [Server thread/INFO]: Adam89893333 issued server command: /warp list
+[15:49:05] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> he took it[m
+
+[15:49:19] [Server thread/INFO]: [0;37;22m[3m[Server: Made Adam89893333 a server operator][m
+
+[15:49:20] [Server thread/INFO]: [0;37;22m[3m[Server: Made Adam89893333 a server operator][m
+
+[15:49:20] [Server thread/INFO]: [0;37;22m[3m[Server: Made Adam89893333 a server operator][m
+
+[15:49:20] [Server thread/INFO]: [0;37;22m[3m[Server: Made Adam89893333 a server operator][m
+
+[15:49:20] [Server thread/INFO]: [0;37;22m[3m[Server: Made Adam89893333 a server operator][m
+
+[15:49:20] [Server thread/INFO]: [0;37;22m[3m[Server: Made Adam89893333 a server operator][m
+
+[15:49:21] [Server thread/INFO]: [0;37;22m[3m[Server: Made Adam89893333 a server operator][m
+
+[15:49:21] [Server thread/INFO]: [0;37;22m[3m[Server: Made Adam89893333 a server operator][m
+
+[15:49:36] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:49:38] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mAdam89893333[m> bruh[m
+
+[15:49:46] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> what deos that mean[m
+
+[15:49:57] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:50:07] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:50:25] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:50:28] [Server thread/INFO]: Adam89893333 issued server command: /lp applyedits dcbB3d1aF6
+[15:50:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[15:50:53] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> fuck you[m
+
+[15:51:01] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> il stop[m
+
+[15:52:15] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> can i be staff[m
+
+[15:52:27] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> ok[m
+
+[15:52:31] [Server thread/INFO]: Hamzah898933_ issued server command: /op kingrobby102
+[15:52:31] [Server thread/INFO]: [Hamzah898933_: Opped kingrobby102]
+[15:52:48] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mkingrobby102[m> cani get the book[m
+
+[15:52:57] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mkingrobby102[m> domainds[m
+
+[15:52:59] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> thr is no bok anymore[m
+
+[15:53:05] [Server thread/INFO]: Hamzah898933_ issued server command: /deop kingrobby102
+[15:53:05] [Server thread/INFO]: [Hamzah898933_: De-opped kingrobby102]
+[15:53:10] [Server thread/INFO]: Hamzah898933_ issued server command: /gms kingrobby102
+[15:53:14] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> so what do i do can get stuff[m
+
+[15:53:36] [Server thread/INFO]: Hamzah898933_ issued server command: /give kingrobby102 diamond 13
+[15:53:50] [Server thread/INFO]: kingrobby102 issued server command: /what do i do
+[15:54:38] [Server thread/INFO]: Adam89893333 issued server command: /lp appy
+[15:54:53] [Server thread/INFO]: Adam89893333 issued server command: /warp tep
+[15:55:33] [Server thread/INFO]: kingrobby102 issued server command: /vanish
+[15:55:33] [Server thread/INFO]: §ckingrobby102 §4was denied access to command.
+[15:55:47] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> can op stuff[m
+
+[15:55:53] [Server thread/INFO]: Hamzah898933_ issued server command: /give Hamzah898933_ woodenaxe
+[15:56:03] [Server thread/INFO]: Hamzah898933_ issued server command: //set qurtz
+[15:56:11] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> tp Adam89893333[m
+
+[15:56:23] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> wow ur stupid[m
+
+[15:56:30] [Server thread/INFO]: Hamzah898933_ issued server command: /tp Adam89893333 kingrobby102
+[15:56:37] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> i dont what to do[m
+
+[15:56:38] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mAdam89893333[m> bro[m
+
+[15:56:39] [Server thread/INFO]: Hamzah898933_ issued server command: /
+[15:56:45] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> n[m
+
+[15:56:51] [Server thread/INFO]: Adam89893333 issued server command: /warp tep
+[15:56:53] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:56:56] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.die(EntityZombie.java:561) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.damageEntity(EntityZombie.java:167) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 24 more
+[15:56:56] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.die(EntityZombie.java:561) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.damageEntity(EntityZombie.java:167) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 24 more
+[15:57:09] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> the fuvkw wwws[m
+
+[15:57:10] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:11] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:11] [Server thread/INFO]: kingrobby102 was slain by Slime
+[15:57:17] [Server thread/INFO]: kingrobby102 issued server command: /back
+[15:57:18] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:23] [Server thread/WARN]: kingrobby102 moved wrongly!
+[15:57:26] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:26] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:26] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:26] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:27] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:27] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:27] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:29] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:30] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:30] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:34] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:36] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:37] [Server thread/INFO]: Hamzah898933_ issued server command: /lagg clear
+[15:57:38] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:40] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:40] [Server thread/INFO]: Hamzah898933_ issued server command: /lagg
+[15:57:44] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:57:49] [Server thread/INFO]: kingrobby102 fell from a high place
+[15:57:50] [Server thread/INFO]: Hamzah898933_ issued server command: /lagg clear
+[15:57:54] [Server thread/INFO]: kingrobby102 issued server command: /back
+[15:57:55] [Server thread/INFO]: Hamzah898933_ issued server command: /lagg
+[15:58:06] [Server thread/INFO]: Hamzah898933_ issued server command: /lagg area
+[15:58:12] [Server thread/INFO]: Hamzah898933_ issued server command: /undo
+[15:58:16] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> tpa Adam89893333[m
+
+[15:58:20] [Server thread/INFO]: Hamzah898933_ issued server command: //se
+[15:58:23] [Server thread/INFO]: kingrobby102 issued server command: /tpa Hamzah898933_
+[15:58:31] [Server thread/INFO]: Hamzah898933_ issued server command: /tp kingrobby102 Hamzah898933_
+[15:58:39] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:58:41] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:58:41] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:58:43] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:58:46] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:58:48] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:58:49] [Server thread/INFO]: Adam89893333 issued server command: /time set 0
+[15:58:49] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:58:52] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:58:54] [Server thread/INFO]: Hamzah898933_ issued server command: /gmc kingrobby102
+[15:58:57] [Server thread/INFO]: Hamzah898933_ issued server command: /admin
+[15:59:17] [Server thread/INFO]: Hamzah898933_ issued server command: /gs
+[15:59:21] [Server thread/INFO]: Hamzah898933_ issued server command: /gms kingrobby102
+[15:59:22] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:59:24] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:59:28] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:59:29] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:59:29] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[15:59:35] [Server thread/INFO]: Hamzah898933_ issued server command: /invsee kingrobby102
+[15:59:37] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> what the fuck[m
+
+[15:59:52] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> lol[m
+
+[15:59:57] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> can getit back[m
+
+[16:00:06] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> ca i get it back[m
+
+[16:00:17] [Server thread/INFO]: kingrobby102 issued server command: /can iget it back
+[16:01:57] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> kill yourslef[m
+
+[16:07:28] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<kingrobby102> can i get creative[m
+
+[16:07:39] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> bk[m
+
+[16:09:55] [Server thread/INFO]: kingrobby102 fell from a high place
+[16:10:06] [Server thread/INFO]: kingrobby102 lost connection: Disconnected
+[16:10:06] [Server thread/INFO]: kingrobby102 is NOW! fucking offline!!
+[16:13:13] [Server thread/INFO]: Adam89893333 lost connection: Disconnected
+[16:13:13] [Server thread/INFO]: Behave pls Adam89893333 (Staff) is now offline
+[16:13:35] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:15:44] [Server thread/INFO]: Hamzah898933_ issued server command: /socialspy
+[16:15:55] [Server thread/INFO]: Hamzah898933_ issued server command: /sun
+[16:15:57] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntitySkeleton.die(EntitySkeleton.java:142) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.e(EntityLiving.java:949) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Block.fallOn(Block.java:650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.a(Entity.java:845) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.a(EntityLiving.java:165) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.move(Entity.java:662) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.g(EntityLiving.java:1405) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.m(EntityLiving.java:1655) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.m(EntityInsentient.java:339) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.m(EntityMonster.java:20) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntitySkeleton.m(EntitySkeleton.java:110) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1495) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 31 more
+[16:16:04] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.die(EntityZombie.java:561) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.damageEntity(EntityZombie.java:167) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.e(EntityLiving.java:949) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Block.fallOn(Block.java:650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.a(Entity.java:845) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.a(EntityLiving.java:165) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.move(Entity.java:662) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.g(EntityLiving.java:1405) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.m(EntityLiving.java:1655) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.m(EntityInsentient.java:339) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.m(EntityMonster.java:20) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.m(EntityZombie.java:163) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1495) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.t_(EntityZombie.java:221) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 33 more
+[16:16:10] [Server thread/INFO]: Hamzah898933_ issued server command: /time day
+[16:16:29] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.die(EntityCreeper.java:137) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.e(EntityLiving.java:949) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.e(EntityCreeper.java:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Block.fallOn(Block.java:650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.a(Entity.java:845) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.a(EntityLiving.java:165) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.move(Entity.java:662) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.g(EntityLiving.java:1405) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.m(EntityLiving.java:1655) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.m(EntityInsentient.java:339) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.m(EntityMonster.java:20) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1495) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.t_(EntityCreeper.java:107) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 32 more
+[16:16:35] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.die(EntityCreeper.java:137) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.e(EntityLiving.java:949) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.e(EntityCreeper.java:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Block.fallOn(Block.java:650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.a(Entity.java:845) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.a(EntityLiving.java:165) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.move(Entity.java:662) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.g(EntityLiving.java:1405) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.m(EntityLiving.java:1655) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.m(EntityInsentient.java:339) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.m(EntityMonster.java:20) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1495) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.t_(EntityCreeper.java:107) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 32 more
+[16:16:41] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.die(EntityCreeper.java:137) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.e(EntityLiving.java:949) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.e(EntityCreeper.java:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Block.fallOn(Block.java:650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.a(Entity.java:845) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.a(EntityLiving.java:165) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.move(Entity.java:662) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.g(EntityLiving.java:1405) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.m(EntityLiving.java:1655) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.m(EntityInsentient.java:339) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.m(EntityMonster.java:20) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1495) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.t_(EntityCreeper.java:107) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 32 more
+[16:19:54] [Server thread/INFO]: Hamzah898933_ issued server command: //set qurtz
+[16:29:18] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:29:25] [Thread-16/INFO]: UUID of player Adam89893333 is 522b1a65-cdd5-348f-bfe3-1448aaffcf22
+[16:29:25] [Server thread/INFO]: Adam89893333[/[0:0:0:0:0:0:0:1]:44766] logged in with entity id 115533 at ([new]8.300000011920925, 69.0, 48.942009592965924)
+[16:29:31] [Server thread/INFO]: Adam89893333 issued server command: /l 956okh6n
+[16:29:33] [Server thread/INFO]: Hamzah898933_ issued server command: /tp Adam89893333 Hamzah898933_
+[16:29:50] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mAdam89893333[m> wth[m
+
+[16:33:21] [Server thread/INFO]: Adam89893333 issued server command: /warp tep
+[16:34:43] [Server thread/ERROR]: Could not pass event EntityDeathEvent to Slimefun v1.6
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.die(EntityCreeper.java:137) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.burnFromLava(Entity.java:367) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.K(Entity.java:345) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.K(EntityLiving.java:174) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.K(EntityInsentient.java:150) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.t_(Entity.java:263) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1457) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityCreeper.t_(EntityCreeper.java:107) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:557) ~[?:?]
+	at me.mrCookieSlime.Slimefun.DonatorSwordDropListener.onSCBdrop(DonatorSwordDropListener.java:29) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 27 more
+[16:36:26] [Thread-17/INFO]: UUID of player jose is cf082672-3126-352f-bb39-02a47a4b8e5e
+[16:36:27] [Server thread/INFO]: jose[/[0:0:0:0:0:0:0:1]:56968] logged in with entity id 128955 at ([world]205.5, 66.0, 150.5)
+[16:36:41] [Server thread/INFO]: jose has just earned the achievement [Taking Inventory]
+[16:37:26] [Server thread/INFO]: jose lost connection: Disconnected
+[16:37:26] [Server thread/INFO]: jose is NOW! fucking offline!!
+[16:37:31] [Server thread/INFO]: Adam89893333 issued server command: /
+[16:37:54] [Thread-18/INFO]: UUID of player jose is cf082672-3126-352f-bb39-02a47a4b8e5e
+[16:37:55] [Server thread/INFO]: jose[/[0:0:0:0:0:0:0:1]:35368] logged in with entity id 129541 at ([new]-21.671966562207366, 78.0, -40.978372959468665)
+[16:38:05] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mAdam89893333[m> yo[m
+
+[16:38:26] [Server thread/INFO]: jose has just earned the achievement [Getting Wood]
+[16:38:58] [Server thread/INFO]: jose has just earned the achievement [Benchmarking]
+[16:39:58] [Server thread/INFO]: jose lost connection: Disconnected
+[16:39:58] [Server thread/INFO]: jose is NOW! fucking offline!!
+[16:41:13] [Server thread/INFO]: Adam89893333 issued server command: //
+[16:41:16] [Server thread/INFO]: Adam89893333 issued server command: //
+[16:43:00] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> bk[m
+
+[16:43:07] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<[0;31;22mHamzah898933_[m> adam do u like it[m
+
+[16:43:07] [Server thread/INFO]: Adam89893333 lost connection: Disconnected
+[16:43:07] [Server thread/INFO]: Behave pls Adam89893333 (Staff) is now offline
+[16:43:27] [Server thread/INFO]: Hamzah898933_ lost connection: Disconnected
+[16:43:27] [Server thread/INFO]: Behave pls Hamzah898933_ (Staff) is now offline
+[16:50:56] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:50:59] [Server thread/INFO]: /plist[m
+
+[16:52:11] [Thread-19/INFO]: UUID of player Adam89893333 is 522b1a65-cdd5-348f-bfe3-1448aaffcf22
+[16:52:11] [Server thread/INFO]: Adam89893333[/[0:0:0:0:0:0:0:1]:41102] logged in with entity id 132522 at ([new]7.889280534441291, 68.0, 45.39714475354651)
+[16:52:19] [Server thread/INFO]: Adam89893333 issued server command: /l 956okh6n
+[17:00:05] [Server thread/INFO]: Adam89893333 lost connection: Disconnected
+[17:00:05] [Server thread/INFO]: Behave pls Adam89893333 (Staff) is now offline
+[17:06:51] [Thread-20/INFO]: UUID of player HeLLo is 11c85069-67a0-3659-bc67-bf50ed2f8ddb
+[17:06:51] [Server thread/INFO]: HeLLo[/[0:0:0:0:0:0:0:1]:40882] logged in with entity id 132896 at ([new]21.07344078327768, 72.0, 46.69999998807907)
+[17:07:17] [Server thread/INFO]: HeLLo issued server command: /tpa spawn
+[17:10:08] [Server thread/INFO]: CONSOLE issued server command: /list 
+[17:10:08] [Server thread/INFO]: [0;33;22mThere are [0;31;1m1[0;33;22m out of maximum [0;31;1m100[0;33;22m players online.[m
+
+[17:10:08] [Server thread/INFO]: [0;33;22mdefault[m: HeLLo[m
+
+[17:12:56] [Thread-21/INFO]: UUID of player kingrobby102 is 0a5259b1-2027-3ec5-8cdd-f69064826c82
+[17:12:56] [Server thread/INFO]: kingrobby102[/[0:0:0:0:0:0:0:1]:57866] logged in with entity id 133176 at ([new]0.0, 85.0, 0.0)
+[17:13:02] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<HeLLo> hi[m
+
+[17:13:11] [Server thread/INFO]: kingrobby102 lost connection: Disconnected
+[17:13:11] [Server thread/INFO]: kingrobby102 is NOW! fucking offline!!
+[17:13:17] [Thread-22/INFO]: UUID of player kingrobby102 is 0a5259b1-2027-3ec5-8cdd-f69064826c82
+[17:13:17] [Server thread/INFO]: kingrobby102[/[0:0:0:0:0:0:0:1]:49942] logged in with entity id 133183 at ([new]-0.16371738062288144, 84.0, 4.828398994001617)
+[17:13:23] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<HeLLo> robby[m
+
+[17:13:32] [Server thread/INFO]: kingrobby102 lost connection: Disconnected
+[17:13:32] [Server thread/INFO]: kingrobby102 is NOW! fucking offline!!
+[17:13:39] [Thread-23/INFO]: UUID of player kingrobby102 is 0a5259b1-2027-3ec5-8cdd-f69064826c82
+[17:13:39] [Server thread/INFO]: kingrobby102[/[0:0:0:0:0:0:0:1]:55596] logged in with entity id 133210 at ([new]-0.16371738062288144, 84.0, 4.828398994001617)
+[17:13:48] [Server thread/INFO]: [[0;37;1mnew[0;37;1m]<HeLLo> plz stop[m
+
+[17:13:54] [Server thread/INFO]: kingrobby102 lost connection: Disconnected
+[17:13:54] [Server thread/INFO]: kingrobby102 is NOW! fucking offline!!
+[17:17:35] [Thread-24/INFO]: UUID of player cris00 is 4136aea5-ee37-34c9-934d-698807690984
+[17:17:35] [Server thread/INFO]: cris00[/[0:0:0:0:0:0:0:1]:54754] logged in with entity id 133390 at ([world]207.5, 63.0, 140.5)
+[17:18:21] [Server thread/INFO]: cris00 lost connection: Login timed out!
+[17:18:21] [Server thread/INFO]: cris00 is NOW! fucking offline!!
+[17:18:21] [Server thread/WARN]: handleDisconnection() called twice
+[17:24:01] [Server thread/INFO]: HeLLo lost connection: Timed out
+[17:24:01] [Server thread/INFO]: HeLLo is NOW! fucking offline!!
+[17:24:02] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[17:24:06] [Server thread/INFO]: CONSOLE issued server command: /list 
+[17:24:06] [Server thread/INFO]: [0;33;22mThere are [0;31;1m0[0;33;22m out of maximum [0;31;1m100[0;33;22m players online.[m
+
+[17:42:14] [Thread-25/INFO]: UUID of player Adam89893333 is 522b1a65-cdd5-348f-bfe3-1448aaffcf22
+[17:42:14] [Server thread/INFO]: Adam89893333[/[0:0:0:0:0:0:0:1]:38432] logged in with entity id 133658 at ([new]10.300000011920929, 69.0, 47.98336732546132)
+[17:42:22] [Server thread/INFO]: Adam89893333 issued server command: /l 956okh6n
+[17:47:23] [Server thread/INFO]: Adam89893333 lost connection: Disconnected
+[17:47:23] [Server thread/INFO]: Behave pls Adam89893333 (Staff) is now offline
