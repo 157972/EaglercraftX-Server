@@ -59,3 +59,15 @@ Warps:
       pitch: 8.550009
       yaw: -270.8999
       world: new
+  spawn1:
+    name: spawn1
+    owner: a09d9599-c777-3d52-b647-797cdc1dc256
+    ownername: Hamzah898933_
+    count: true
+    loc:
+      x: -395.5267023472083
+      y: 195.0
+      z: -426.5935330625829
+      pitch: 12.75001
+      yaw: 0.8996582
+      world: new

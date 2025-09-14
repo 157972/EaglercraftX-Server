@@ -12,7 +12,7 @@ options:
   usercanseetheplugins: false
   auto-update: false
   announce-running: true
-  announce-running-only-ops: false
+  announce-running-only-ops: true
   play-music-on-join: true
   play-music-disc-id: 2267
   language: english
@@ -99,7 +99,7 @@ craftable-items:
   nanoaxel-is-craftable: false
 drop-chance:
   drop-random-donator-sword:
-    percentage: 0.01
-    chance: 1
+    percentage: 0
+    chance: 0
 sounds:
   chat: click
